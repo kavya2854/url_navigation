@@ -4,6 +4,8 @@ from django.shortcuts import render
 def rohit(request):
     return render(request,'rohit.html')
 
-
 def virat(request):
     return render(request,'virat.html')
+
+def gill(request):
+    return render(request,'gill.html')
